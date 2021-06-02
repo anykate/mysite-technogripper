@@ -10,6 +10,7 @@ Open command prompt window and navigate to project root folder and run below com
 
 FRONTEND:
 Open a separate command prompt window and navigate to project root folder and run below commands:
-3. cd frontend 
-4. npm i 
+3. cd frontend
+4. npm i
 5. npm run serve
+6. From browser, navigate to http://localhost:8080/
