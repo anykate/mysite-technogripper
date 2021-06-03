@@ -67,11 +67,6 @@ export default {
             {
               username: username.value,
               password: password.value,
-            },
-            {
-              headers: {
-                Authorization: "Bearer " + store.getters.getAccessToken(),
-              },
             }
           )
           .then((response) => {
