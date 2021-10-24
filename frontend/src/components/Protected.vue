@@ -24,7 +24,7 @@ export default {
     const accessProtectedPage = async function () {
       await axios
         .get(
-          "http://localhost:8000/api/protected_view/",
+          "http://www.django4u.com:8000/api/protected_view/",
           {
             headers: {
               Authorization: `Bearer ${store.getters.getAccessToken()}`

@@ -63,7 +63,7 @@ export default {
       if (username.value && password.value) {
         await axios
           .post(
-            "http://localhost:8000/api/token/",
+            "http://www.django4u.com:8000/api/token/",
             {
               username: username.value,
               password: password.value,

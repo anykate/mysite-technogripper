@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-wcx)t_zgum5gl747+qx10k-%oa^g%im0eed%en9&rwa*+oaue8"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.105.40.56', 'django4u.com', 'www.django4u.com']
 
 
 # Application definition
@@ -148,4 +148,11 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8000", "http://localhost:8080"]
+CORS_ALLOWED_ORIGINS = [
+	"http://172.105.40.56:8000",
+	"http://172.105.40.56",
+	"http://django4u.com:8000",
+	"http://www.django4u.com:8000",
+	"http://django4u.com",
+	"http://www.django4u.com"
+]
